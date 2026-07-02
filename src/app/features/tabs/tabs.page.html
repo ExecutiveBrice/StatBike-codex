@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>RideStats</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-tabs>
+  <ion-router-outlet />
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="dashboard" href="/tabs/dashboard">
+      <ion-icon name="bar-chart-outline" />
+      <ion-label>Dashboard</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="history" href="/tabs/history">
+      <ion-icon name="time-outline" />
+      <ion-label>History</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="map" href="/tabs/map">
+      <ion-icon name="map-outline" />
+      <ion-label>Map</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="settings" href="/tabs/settings">
+      <ion-icon name="settings-outline" />
+      <ion-label>Settings</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
